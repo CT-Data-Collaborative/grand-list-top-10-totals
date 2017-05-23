@@ -46,17 +46,43 @@ gl_data_long <- reshape(gl_data,
 
 gl_data_long$id <- NULL
 
-#NOT WORKING
-gl_na <- unique(gl_data_long[is.na(gl_data_long$`Value`),]$Town)
+#Convert town names to correct case
+gl_data_long$Town <- stri_trans_totitle(gl_data_long$Town)
 
-old_gl_data <- (read_excel(paste0(path_to_raw_data, "/", gl_xlsx), sheet=2, skip=0)) 
-replace_gl_data <- old_gl_data[old_gl_data$Town %in% gl_na,]
-replace_gl_data <- replace_gl_data[,c(3,4,25,27,28)]
-colnames(replace_gl_data) <- c("Town", "Year", "Top 10 Total Grand List", "Total Grand List", "Net Grand List")
+#Merge in FIPS
+town_fips_dp_URL <- 'https://raw.githubusercontent.com/CT-Data-Collaborative/ct-town-list/master/datapackage.json'
+town_fips_dp <- datapkg_read(path = town_fips_dp_URL)
+fips <- (town_fips_dp$data[[1]])
 
-#remove towns that need to get replaced
-gl_data_sub <- gl_data[!gl_data$Town %in% gl_na,]
+gl_data_long_fips <- merge(gl_data_long, fips, by = "Town", all=T)
+#remove CT
+gl_data_long_fips <- gl_data_long_fips[gl_data_long_fips$Town != "Connecticut",]
 
-#add in replacement df
-gl_data_complete <- rbind(gl_data_sub, replace_gl_data)
+#Assign Measure Type
+gl_data_long_fips$"Measure Type" <- "Number"
+
+#Order columns
+gl_data_long_fips <- gl_data_long_fips %>% 
+  select(`Town`, `FIPS`, `Year`, `Variable`, `Measure Type`, `Value`) %>% 
+  arrange(Town, Variable)
+
+#Set New Canaan year one less than cutoff year (blank data)
+gl_data_long_fips$Year <- as.numeric(gl_data_long_fips$Year)
+gl_years <- unique(gl_data_long_fips$Year)
+latest_year <- max(gl_years[!is.na(gl_years)])
+cutoff_year <- latest_year - 2
+gl_data_long_fips$Year[gl_data_long_fips$Town == "New Canaan"] <- (cutoff_year - 1)
+
+#Code "Old" data to -6666 (data before 2014)
+gl_data_long_fips$Value[gl_data_long_fips$Year < cutoff_year] <- -6666
+
+# Write to File
+write.table(
+  gl_data_long_fips,
+  file.path(getwd(), "data", "grand_list_top_10_totals_2016.csv"),
+  sep = ",",
+  na = "-6666",
+  row.names = F
+)
+
 
