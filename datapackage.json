@@ -21,7 +21,7 @@
   }],
   "contributor": [],
   "resources": [{
-    "path": "data/data.csv",
+    "path": "data/grand_list_top_10_totals_2016.csv",
     "format": "csv",
     "schema": {
       "fields": [{
@@ -39,11 +39,21 @@
         }, {
           "name": "Measure Type",
           "type": "string",
-          "dimension": true
+          "dimension": true, 
+          "constraints": {
+            "enum": ["Number"]
+          }           
         }, {
           "name": "Variable",
           "type": "string",
-          "dimension": true
+          "dimension": true, 
+          "constraints": {
+            "enum": [
+              "Net Grand List",
+              "Top 10 Total Grand List",
+              "Total Grand List"
+            ]
+          }           
         }, {
           "name": "Value",
           "type": "number",
@@ -52,7 +62,7 @@
       }
     }
   ],
-  "last_modified": "05/22/2017",
+  "last_modified": "05/24/2017",
   "ckan_extras": {
     "full_description": {
       "ckan_name": "Full Description",
@@ -66,27 +76,27 @@
     },
     "technical_notes": {
       "ckan_name": "Technical Notes",
-      "value": "Technical notes for advanced users",
+      "value": "",
       "type": "string"
     },
     "socrata": {
       "ckan_name": "Socrata",
-      "value": "False",,
+      "value": "False",
       "type": "string"
     },
     "socrata_url": {
       "ckan_name": "Socrata Dataset URL",
-      "value": "",,
+      "value": "",
       "type": "string"
     },
     "domain": {
       "ckan_name": "Domain",
-      "value": "Data domain (top level)",
+      "value": "",
       "type": "string"
     },
     "subdomain": {
       "ckan_name": "Subdomain",
-      "value": "Topic within top level domain",
+      "value": "",
       "type": "string"
     },
     "geography": {
@@ -102,7 +112,7 @@
     },
     "years_in_catalog": {
       "ckan_name": "Years in Catalog",
-      "value": [],
+      "value": ["2016"],
       "type": "array"
     },
     "latest_year": {
@@ -123,11 +133,131 @@
         "Percent": "%"
       }
     },
+    "expected_number_of_geographies": {
+      "ckan_name": "Expected Number of Unique Geographies",
+      "value": 169,
+      "type": "string"
+    },     
     "default": {}
   },
-  "spot_checks": [],
+  "spot_checks": [
+    {
+      "type": "$lookup",
+      "filter": {
+        "Town": "Berlin",
+        "Year": "2009",
+        "Variable": "Net Grand List",
+        "Measure Type": "Number"
+      },
+      "expected": {
+        "type": "$match",
+        "number type": "int",
+        "value": -6666
+      }
+    }, 
+    {
+      "type": "$lookup",
+      "filter": {
+        "Town": "Monroe",
+        "Year": "2012",
+        "Variable": "Top 10 Total Grand List",
+        "Measure Type": "Number"
+      },
+      "expected": {
+        "type": "$match",
+        "number type": "int",
+        "value": -6666
+      }
+    },  
+    {
+      "type": "$lookup",
+      "filter": {
+        "Town": "Canaan",
+        "Year": "2016",
+        "Variable": "Total Grand List",
+        "Measure Type": "Number"
+      },
+      "expected": {
+        "type": "$match",
+        "number type": "int",
+        "value": -6666
+      }
+    },  
+    {
+      "type": "$lookup",
+      "filter": {
+        "Town": "Plainville",
+        "Year": "2016",
+        "Variable": "Net Grand List",
+        "Measure Type": "Number"
+      },
+      "expected": {
+        "type": "$match",
+        "number type": "int",
+        "value": 1381073382
+      }
+    },  
+    {
+      "type": "$lookup",
+      "filter": {
+        "Town": "Killingly",
+        "Year": "2014",
+        "Variable": "Top 10 Total Grand List",
+        "Measure Type": "Number"
+      },
+      "expected": {
+        "type": "$match",
+        "number type": "int",
+        "value": 264335538
+      }
+    },  
+    {
+      "type": "$lookup",
+      "filter": {
+        "Town": "Somers",
+        "Year": "2015",
+        "Variable": "Total Grand List",
+        "Measure Type": "Number"
+      },
+      "expected": {
+        "type": "$match",
+        "number type": "int",
+        "value": 856051496
+      }
+    },  
+    {
+      "type": "$lookup",
+      "filter": {
+        "Town": "Bloomfield",
+        "Year": "2014",
+        "Variable": "Top 10 Total Grand List",
+        "Measure Type": "Number"
+      },
+      "expected": {
+        "type": "$match",
+        "number type": "int",
+        "value": 405730410
+      }
+    },     
+    {
+      "type": "$lookup",
+      "filter": {
+        "Town": "Oxford",
+        "Year": "2016",
+        "Variable": "Net Grand List",
+        "Measure Type": "Number"
+      },
+      "expected": {
+        "type": "$match",
+        "number type": "int",
+        "value": 1477153946
+      }
+    }    
+  ],
   "dimension_groups": [
-    {"Measure Type": []},
-    {"Variable": []}
+    {"Variable": ["Net Grand List",
+                  "Top 10 Total Grand List",
+                  "Total Grand List"]
+    }
   ]
 }
