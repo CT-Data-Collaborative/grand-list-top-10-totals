@@ -21,7 +21,7 @@
   }],
   "contributor": [],
   "resources": [{
-    "path": "data/grand_list_top_10_totals_2016.csv",
+    "path": "data/grand_list_top_10_totals_2014.csv",
     "format": "csv",
     "schema": {
       "fields": [{
@@ -33,10 +33,18 @@
           "type": "string",
           "dimension": false
         }, {
-          "name": "Year",
+          "name": "Grand List Total Year",
           "type": "string",
           "dimension": false
         }, {
+          "name": "Year Submitted",
+          "type": "string",
+          "dimension": false
+        }, {    
+          "name": "Town Profile Year",
+          "type": "string",
+          "dimension": false
+        }, {              
           "name": "Measure Type",
           "type": "string",
           "dimension": true, 
@@ -62,7 +70,7 @@
       }
     }
   ],
-  "last_modified": "05/24/2017",
+  "last_modified": "05/25/2017",
   "ckan_extras": {
     "full_description": {
       "ckan_name": "Full Description",
@@ -112,12 +120,12 @@
     },
     "years_in_catalog": {
       "ckan_name": "Years in Catalog",
-      "value": ["2016"],
+      "value": ["2014"],
       "type": "array"
     },
     "latest_year": {
       "ckan_name": "Latest Year Available",
-      "value": "2016",
+      "value": "2014",
       "type": "string"
     },
     "disabled_views": {
@@ -145,7 +153,7 @@
       "type": "$lookup",
       "filter": {
         "Town": "Berlin",
-        "Year": "2009",
+        "Grand List Total Year": "2009",
         "Variable": "Net Grand List",
         "Measure Type": "Number"
       },
@@ -159,7 +167,7 @@
       "type": "$lookup",
       "filter": {
         "Town": "Monroe",
-        "Year": "2012",
+        "Grand List Total Year": "2012",
         "Variable": "Top 10 Total Grand List",
         "Measure Type": "Number"
       },
@@ -172,36 +180,8 @@
     {
       "type": "$lookup",
       "filter": {
-        "Town": "Canaan",
-        "Year": "2016",
-        "Variable": "Total Grand List",
-        "Measure Type": "Number"
-      },
-      "expected": {
-        "type": "$match",
-        "number type": "int",
-        "value": -6666
-      }
-    },  
-    {
-      "type": "$lookup",
-      "filter": {
-        "Town": "Plainville",
-        "Year": "2016",
-        "Variable": "Net Grand List",
-        "Measure Type": "Number"
-      },
-      "expected": {
-        "type": "$match",
-        "number type": "int",
-        "value": 1381073382
-      }
-    },  
-    {
-      "type": "$lookup",
-      "filter": {
         "Town": "Killingly",
-        "Year": "2014",
+        "Grand List Total Year": "2014",
         "Variable": "Top 10 Total Grand List",
         "Measure Type": "Number"
       },
@@ -211,25 +191,12 @@
         "value": 264335538
       }
     },  
-    {
-      "type": "$lookup",
-      "filter": {
-        "Town": "Somers",
-        "Year": "2015",
-        "Variable": "Total Grand List",
-        "Measure Type": "Number"
-      },
-      "expected": {
-        "type": "$match",
-        "number type": "int",
-        "value": 856051496
-      }
-    },  
+ 
     {
       "type": "$lookup",
       "filter": {
         "Town": "Bloomfield",
-        "Year": "2014",
+        "Grand List Total Year": "2014",
         "Variable": "Top 10 Total Grand List",
         "Measure Type": "Number"
       },
@@ -238,21 +205,7 @@
         "number type": "int",
         "value": 405730410
       }
-    },     
-    {
-      "type": "$lookup",
-      "filter": {
-        "Town": "Oxford",
-        "Year": "2016",
-        "Variable": "Net Grand List",
-        "Measure Type": "Number"
-      },
-      "expected": {
-        "type": "$match",
-        "number type": "int",
-        "value": 1477153946
-      }
-    }    
+    }   
   ],
   "dimension_groups": [
     {"Variable": ["Net Grand List",
