@@ -1,7 +1,7 @@
-"Town","FIPS","Grand List Total Year","Year Submitted","Town Profile Year","Variable","Measure Type","Value"
-"Andover","0901301080",2009,2010,2016,"Net Grand List","Number",-6666
-"Andover","0901301080",2009,2010,2016,"Top 10 Total Grand List","Number",-6666
-"Andover","0901301080",2009,2010,2016,"Total Grand List","Number",-6666
+"Town","FIPS","Year","Year Submitted","Town Profile Year","Variable","Measure Type","Value"
+"Andover","0901301080",2009,2010,2016,"Net Grand List","Number",275587542
+"Andover","0901301080",2009,2010,2016,"Top 10 Total Grand List","Number",9047760
+"Andover","0901301080",2009,2010,2016,"Total Grand List","Number",277124550
 "Ansonia","0900901220",2014,2015,2016,"Net Grand List","Number",894130365
 "Ansonia","0900901220",2014,2015,2016,"Top 10 Total Grand List","Number",66739130
 "Ansonia","0900901220",2014,2015,2016,"Total Grand List","Number",1027835763
@@ -17,27 +17,27 @@
 "Beacon Falls","0900903250",2013,2014,2016,"Net Grand List","Number",475004584
 "Beacon Falls","0900903250",2013,2014,2016,"Top 10 Total Grand List","Number",41750550
 "Beacon Falls","0900903250",2013,2014,2016,"Total Grand List","Number",522448654
-"Berlin","0900304300",2009,2010,2016,"Net Grand List","Number",-6666
-"Berlin","0900304300",2009,2010,2016,"Top 10 Total Grand List","Number",-6666
-"Berlin","0900304300",2009,2010,2016,"Total Grand List","Number",-6666
-"Bethany","0900904580",2009,2010,2016,"Net Grand List","Number",-6666
-"Bethany","0900904580",2009,2010,2016,"Top 10 Total Grand List","Number",-6666
-"Bethany","0900904580",2009,2010,2016,"Total Grand List","Number",-6666
+"Berlin","0900304300",2009,2010,2016,"Net Grand List","Number",2277715548
+"Berlin","0900304300",2009,2010,2016,"Top 10 Total Grand List","Number",270222340
+"Berlin","0900304300",2009,2010,2016,"Total Grand List","Number",2339805500
+"Bethany","0900904580",2009,2010,2016,"Net Grand List","Number",615225920
+"Bethany","0900904580",2009,2010,2016,"Top 10 Total Grand List","Number",46377892
+"Bethany","0900904580",2009,2010,2016,"Total Grand List","Number",663896759
 "Bethel","0900104720",2013,2013,2016,"Net Grand List","Number",1865157340
 "Bethel","0900104720",2013,2013,2016,"Top 10 Total Grand List","Number",201283220
 "Bethel","0900104720",2013,2013,2016,"Total Grand List","Number",1992601080
-"Bethlehem","0900504930",2012,2013,2016,"Net Grand List","Number",-6666
-"Bethlehem","0900504930",2012,2013,2016,"Top 10 Total Grand List","Number",-6666
-"Bethlehem","0900504930",2012,2013,2016,"Total Grand List","Number",-6666
+"Bethlehem","0900504930",2012,2013,2016,"Net Grand List","Number",407011169
+"Bethlehem","0900504930",2012,2013,2016,"Top 10 Total Grand List","Number",13453364
+"Bethlehem","0900504930",2012,2013,2016,"Total Grand List","Number",411307912
 "Bloomfield","0900305910",2014,2015,2016,"Net Grand List","Number",2034013740
 "Bloomfield","0900305910",2014,2015,2016,"Top 10 Total Grand List","Number",405730410
 "Bloomfield","0900305910",2014,2015,2016,"Total Grand List","Number",2155160790
 "Bolton","0901306260",2013,2010,2016,"Net Grand List","Number",427447825
 "Bolton","0901306260",2013,2010,2016,"Top 10 Total Grand List","Number",12893090
 "Bolton","0901306260",2013,2010,2016,"Total Grand List","Number",486569370
-"Bozrah","0901106820",2009,2010,2016,"Net Grand List","Number",-6666
-"Bozrah","0901106820",2009,2010,2016,"Top 10 Total Grand List","Number",-6666
-"Bozrah","0901106820",2009,2010,2016,"Total Grand List","Number",-6666
+"Bozrah","0901106820",2009,2010,2016,"Net Grand List","Number",241585389
+"Bozrah","0901106820",2009,2010,2016,"Top 10 Total Grand List","Number",24277478
+"Bozrah","0901106820",2009,2010,2016,"Total Grand List","Number",251571723
 "Branford","0900907310",2014,2015,2016,"Net Grand List","Number",348568401
 "Branford","0900907310",2014,2015,2016,"Top 10 Total Grand List","Number",174923250
 "Branford","0900907310",2014,2015,2016,"Total Grand List","Number",3517174206
@@ -65,24 +65,24 @@
 "Canterbury","0901512130",2014,2015,2016,"Net Grand List","Number",392665406
 "Canterbury","0901512130",2014,2015,2016,"Top 10 Total Grand List","Number",17729833
 "Canterbury","0901512130",2014,2015,2016,"Total Grand List","Number",398417446
-"Canton","0900312270",2009,2010,2016,"Net Grand List","Number",-6666
-"Canton","0900312270",2009,2010,2016,"Top 10 Total Grand List","Number",-6666
-"Canton","0900312270",2009,2010,2016,"Total Grand List","Number",-6666
+"Canton","0900312270",2009,2010,2016,"Net Grand List","Number",1113674883
+"Canton","0900312270",2009,2010,2016,"Top 10 Total Grand List","Number",82881230
+"Canton","0900312270",2009,2010,2016,"Total Grand List","Number",1115562103
 "Chaplin","0901513810",2014,2015,2016,"Net Grand List","Number",157475810
 "Chaplin","0901513810",2014,2015,2016,"Top 10 Total Grand List","Number",20339690
 "Chaplin","0901513810",2014,2015,2016,"Total Grand List","Number",158357330
 "Cheshire","0900914160",2014,2015,2016,"Net Grand List","Number",2726793817
 "Cheshire","0900914160",2014,2015,2016,"Top 10 Total Grand List","Number",538200455
 "Cheshire","0900914160",2014,2015,2016,"Total Grand List","Number",2806848317
-"Chester","0900714300",2012,2013,2016,"Net Grand List","Number",-6666
-"Chester","0900714300",2012,2013,2016,"Top 10 Total Grand List","Number",-6666
-"Chester","0900714300",2012,2013,2016,"Total Grand List","Number",-6666
+"Chester","0900714300",2012,2013,2016,"Net Grand List","Number",502028248
+"Chester","0900714300",2012,2013,2016,"Top 10 Total Grand List","Number",53981460
+"Chester","0900714300",2012,2013,2016,"Total Grand List","Number",510791908
 "Clinton","0900715350",2013,2014,2016,"Net Grand List","Number",1506767491
 "Clinton","0900715350",2013,2014,2016,"Top 10 Total Grand List","Number",104042988
 "Clinton","0900715350",2013,2014,2016,"Total Grand List","Number",1515908291
-"Colchester","0901115910",2009,2010,2016,"Net Grand List","Number",-6666
-"Colchester","0901115910",2009,2010,2016,"Top 10 Total Grand List","Number",-6666
-"Colchester","0901115910",2009,2010,2016,"Total Grand List","Number",-6666
+"Colchester","0901115910",2009,2010,2016,"Net Grand List","Number",1275361503
+"Colchester","0901115910",2009,2010,2016,"Top 10 Total Grand List","Number",55351730
+"Colchester","0901115910",2009,2010,2016,"Total Grand List","Number",1283291579
 "Colebrook","0900516050",2014,2015,2016,"Net Grand List","Number",184230233
 "Colebrook","0900516050",2014,2015,2016,"Top 10 Total Grand List","Number",26641800
 "Colebrook","0900516050",2014,2015,2016,"Total Grand List","Number",185483453
@@ -92,15 +92,15 @@
 "Cornwall","0900517240",2014,2015,2016,"Net Grand List","Number",403063800
 "Cornwall","0900517240",2014,2015,2016,"Top 10 Total Grand List","Number",46239490
 "Cornwall","0900517240",2014,2015,2016,"Total Grand List","Number",403968470
-"Coventry","0901317800",2011,2012,2016,"Net Grand List","Number",-6666
-"Coventry","0901317800",2011,2012,2016,"Top 10 Total Grand List","Number",-6666
-"Coventry","0901317800",2011,2012,2016,"Total Grand List","Number",-6666
+"Coventry","0901317800",2011,2012,2016,"Net Grand List","Number",983526745
+"Coventry","0901317800",2011,2012,2016,"Top 10 Total Grand List","Number",27690620
+"Coventry","0901317800",2011,2012,2016,"Total Grand List","Number",989203685
 "Cromwell","0900718080",2014,2015,2016,"Net Grand List","Number",1289926800
 "Cromwell","0900718080",2014,2015,2016,"Top 10 Total Grand List","Number",302482760
 "Cromwell","0900718080",2014,2015,2016,"Total Grand List","Number",1390762380
-"Danbury","0900118500",2009,2010,2016,"Net Grand List","Number",-6666
-"Danbury","0900118500",2009,2010,2016,"Top 10 Total Grand List","Number",-6666
-"Danbury","0900118500",2009,2010,2016,"Total Grand List","Number",-6666
+"Danbury","0900118500",2009,2010,2016,"Net Grand List","Number",7860745248
+"Danbury","0900118500",2009,2010,2016,"Top 10 Total Grand List","Number",635122220
+"Danbury","0900118500",2009,2010,2016,"Total Grand List","Number",10208915949
 "Darien","0900118850",2013,2015,2016,"Net Grand List","Number",8285454606
 "Darien","0900118850",2013,2015,2016,"Top 10 Total Grand List","Number",321525196
 "Darien","0900118850",2013,2015,2016,"Total Grand List","Number",8286612726
@@ -110,9 +110,9 @@
 "Derby","0900919550",2014,2015,2016,"Net Grand List","Number",748833439
 "Derby","0900919550",2014,2015,2016,"Top 10 Total Grand List","Number",70229552
 "Derby","0900919550",2014,2015,2016,"Total Grand List","Number",755924900
-"Durham","0900720810",2009,2010,2016,"Net Grand List","Number",-6666
-"Durham","0900720810",2009,2010,2016,"Top 10 Total Grand List","Number",-6666
-"Durham","0900720810",2009,2010,2016,"Total Grand List","Number",-6666
+"Durham","0900720810",2009,2010,2016,"Net Grand List","Number",780772117
+"Durham","0900720810",2009,2010,2016,"Top 10 Total Grand List","Number",44400170
+"Durham","0900720810",2009,2010,2016,"Total Grand List","Number",795226321
 "Eastford","0901521860",2013,2014,2016,"Net Grand List","Number",141272662
 "Eastford","0901521860",2013,2014,2016,"Top 10 Total Grand List","Number",8860310
 "Eastford","0901521860",2013,2014,2016,"Total Grand List","Number",162733362
@@ -134,9 +134,9 @@
 "East Lyme","0901123400",2014,2015,2016,"Net Grand List","Number",2086779308
 "East Lyme","0901123400",2014,2015,2016,"Top 10 Total Grand List","Number",71601230
 "East Lyme","0901123400",2014,2015,2016,"Total Grand List","Number",2100447088
-"Easton","0900123890",2009,2010,2016,"Net Grand List","Number",-6666
-"Easton","0900123890",2009,2010,2016,"Top 10 Total Grand List","Number",-6666
-"Easton","0900123890",2009,2010,2016,"Total Grand List","Number",-6666
+"Easton","0900123890",2009,2010,2016,"Net Grand List","Number",1585344340
+"Easton","0900123890",2009,2010,2016,"Top 10 Total Grand List","Number",63863280
+"Easton","0900123890",2009,2010,2016,"Total Grand List","Number",1680585670
 "East Windsor","0900324800",2014,2015,2016,"Net Grand List","Number",951995751
 "East Windsor","0900324800",2014,2015,2016,"Top 10 Total Grand List","Number",135984840
 "East Windsor","0900324800",2014,2015,2016,"Total Grand List","Number",1066551451
@@ -164,9 +164,9 @@
 "Goshen","0900532290",2014,2015,2016,"Net Grand List","Number",523351320
 "Goshen","0900532290",2014,2015,2016,"Top 10 Total Grand List","Number",23810940
 "Goshen","0900532290",2014,2015,2016,"Total Grand List","Number",554213720
-"Granby","0900332640",2012,2014,2016,"Net Grand List","Number",-6666
-"Granby","0900332640",2012,2014,2016,"Top 10 Total Grand List","Number",-6666
-"Granby","0900332640",2012,2014,2016,"Total Grand List","Number",-6666
+"Granby","0900332640",2012,2014,2016,"Net Grand List","Number",960153300
+"Granby","0900332640",2012,2014,2016,"Top 10 Total Grand List","Number",32766890
+"Granby","0900332640",2012,2014,2016,"Total Grand List","Number",964290200
 "Greenwich","0900133620",2014,2015,2016,"Net Grand List","Number",31086586390
 "Greenwich","0900133620",2014,2015,2016,"Top 10 Total Grand List","Number",1033266290
 "Greenwich","0900133620",2014,2015,2016,"Total Grand List","Number",31127490950
@@ -176,12 +176,12 @@
 "Groton","0901134250",2014,2015,2016,"Net Grand List","Number",3820151399
 "Groton","0901134250",2014,2015,2016,"Top 10 Total Grand List","Number",788275995
 "Groton","0901134250",2014,2015,2016,"Total Grand List","Number",4026986893
-"Guilford","0900934950",2012,2013,2016,"Net Grand List","Number",-6666
-"Guilford","0900934950",2012,2013,2016,"Top 10 Total Grand List","Number",-6666
-"Guilford","0900934950",2012,2013,2016,"Total Grand List","Number",-6666
-"Haddam","0900735230",2012,2013,2016,"Net Grand List","Number",-6666
-"Haddam","0900735230",2012,2013,2016,"Top 10 Total Grand List","Number",-6666
-"Haddam","0900735230",2012,2013,2016,"Total Grand List","Number",-6666
+"Guilford","0900934950",2012,2013,2016,"Net Grand List","Number",3494942749
+"Guilford","0900934950",2012,2013,2016,"Top 10 Total Grand List","Number",96164696
+"Guilford","0900934950",2012,2013,2016,"Total Grand List","Number",3516977919
+"Haddam","0900735230",2012,2013,2016,"Net Grand List","Number",901419307
+"Haddam","0900735230",2012,2013,2016,"Top 10 Total Grand List","Number",86532680
+"Haddam","0900735230",2012,2013,2016,"Total Grand List","Number",904391025
 "Hamden","0900935650",2014,2015,2016,"Net Grand List","Number",4075493965
 "Hamden","0900935650",2014,2015,2016,"Top 10 Total Grand List","Number",261938020
 "Hamden","0900935650",2014,2015,2016,"Total Grand List","Number",4850492588
@@ -194,9 +194,9 @@
 "Hartland","0900337140",2014,2015,2016,"Net Grand List","Number",196621970
 "Hartland","0900337140",2014,2015,2016,"Top 10 Total Grand List","Number",26134919
 "Hartland","0900337140",2014,2015,2016,"Total Grand List","Number",197143250
-"Harwinton","0900537280",2009,2010,2016,"Net Grand List","Number",-6666
-"Harwinton","0900537280",2009,2010,2016,"Top 10 Total Grand List","Number",-6666
-"Harwinton","0900537280",2009,2010,2016,"Total Grand List","Number",-6666
+"Harwinton","0900537280",2009,2010,2016,"Net Grand List","Number",556873275
+"Harwinton","0900537280",2009,2010,2016,"Top 10 Total Grand List","Number",40667595
+"Harwinton","0900537280",2009,2010,2016,"Total Grand List","Number",562107618
 "Hebron","0901337910",2014,2015,2016,"Net Grand List","Number",782001450
 "Hebron","0901337910",2014,2015,2016,"Top 10 Total Grand List","Number",19938470
 "Hebron","0901337910",2014,2015,2016,"Total Grand List","Number",849256660
@@ -216,7 +216,7 @@
 "Ledyard","0901142600",2014,2015,2016,"Top 10 Total Grand List","Number",81595884
 "Ledyard","0901142600",2014,2015,2016,"Total Grand List","Number",1158590893
 "Lisbon","0901143230",2010,2010,2016,"Net Grand List","Number",-6666
-"Lisbon","0901143230",2010,2010,2016,"Top 10 Total Grand List","Number",-6666
+"Lisbon","0901143230",2010,2010,2016,"Top 10 Total Grand List","Number",73616990
 "Lisbon","0901143230",2010,2010,2016,"Total Grand List","Number",-6666
 "Litchfield","0900543370",2013,2014,2016,"Net Grand List","Number",1030897219
 "Litchfield","0900543370",2013,2014,2016,"Top 10 Total Grand List","Number",82957056
@@ -251,33 +251,33 @@
 "Milford","0900947535",2014,2015,2016,"Net Grand List","Number",6388015939
 "Milford","0900947535",2014,2015,2016,"Top 10 Total Grand List","Number",513489894
 "Milford","0900947535",2014,2015,2016,"Total Grand List","Number",6554994017
-"Monroe","0900148620",2012,2013,2016,"Net Grand List","Number",-6666
-"Monroe","0900148620",2012,2013,2016,"Top 10 Total Grand List","Number",-6666
-"Monroe","0900148620",2012,2013,2016,"Total Grand List","Number",-6666
+"Monroe","0900148620",2012,2013,2016,"Net Grand List","Number",2310276150
+"Monroe","0900148620",2012,2013,2016,"Top 10 Total Grand List","Number",136986213
+"Monroe","0900148620",2012,2013,2016,"Total Grand List","Number",2327195097
 "Montville","0901148900",2014,2015,2016,"Net Grand List","Number",1255702744
 "Montville","0901148900",2014,2015,2016,"Top 10 Total Grand List","Number",116729162
 "Montville","0901148900",2014,2015,2016,"Total Grand List","Number",1305824499
 "Morris","0900549460",2013,2013,2016,"Net Grand List","Number",-6666
 "Morris","0900549460",2013,2013,2016,"Top 10 Total Grand List","Number",-6666
 "Morris","0900549460",2013,2013,2016,"Total Grand List","Number",-6666
-"Naugatuck","0900949950",2013,2013,2016,"Net Grand List","Number",-6666
-"Naugatuck","0900949950",2013,2013,2016,"Top 10 Total Grand List","Number",93651221
-"Naugatuck","0900949950",2013,2013,2016,"Total Grand List","Number",-6666
+"Naugatuck","0900949950",2009,2009,2016,"Net Grand List","Number",-6666
+"Naugatuck","0900949950",2009,2009,2016,"Top 10 Total Grand List","Number",93651221
+"Naugatuck","0900949950",2009,2009,2016,"Total Grand List","Number",-6666
 "New Britain","0900350440",2013,2014,2016,"Net Grand List","Number",2443704233
 "New Britain","0900350440",2013,2014,2016,"Top 10 Total Grand List","Number",173359634
 "New Britain","0900350440",2013,2014,2016,"Total Grand List","Number",2549887651
 "New Canaan","0900150580",2013,2013,2016,"Net Grand List","Number",-6666
 "New Canaan","0900150580",2013,2013,2016,"Top 10 Total Grand List","Number",-6666
 "New Canaan","0900150580",2013,2013,2016,"Total Grand List","Number",-6666
-"New Fairfield","0900150860",2009,2010,2016,"Net Grand List","Number",-6666
-"New Fairfield","0900150860",2009,2010,2016,"Top 10 Total Grand List","Number",-6666
-"New Fairfield","0900150860",2009,2010,2016,"Total Grand List","Number",-6666
+"New Fairfield","0900150860",2009,2010,2016,"Net Grand List","Number",1679534745
+"New Fairfield","0900150860",2009,2010,2016,"Top 10 Total Grand List","Number",961697.14
+"New Fairfield","0900150860",2009,2010,2016,"Total Grand List","Number",1685807775
 "New Hartford","0900551350",2014,2015,2016,"Net Grand List","Number",652909063
 "New Hartford","0900551350",2014,2015,2016,"Top 10 Total Grand List","Number",40540230
 "New Hartford","0900551350",2014,2015,2016,"Total Grand List","Number",666827
-"New Haven","0900952070",2009,2010,2016,"Net Grand List","Number",-6666
-"New Haven","0900952070",2009,2010,2016,"Top 10 Total Grand List","Number",-6666
-"New Haven","0900952070",2009,2010,2016,"Total Grand List","Number",-6666
+"New Haven","0900952070",2009,2010,2016,"Net Grand List","Number",5447495563
+"New Haven","0900952070",2009,2010,2016,"Top 10 Total Grand List","Number",1003972515
+"New Haven","0900952070",2009,2010,2016,"Total Grand List","Number",6600398094
 "Newington","0900352140",2014,2015,2016,"Net Grand List","Number",2550822204
 "Newington","0900352140",2014,2015,2016,"Top 10 Total Grand List","Number",176661012
 "Newington","0900352140",2014,2015,2016,"Total Grand List","Number",2640106269
@@ -296,15 +296,15 @@
 "North Branford","0900953890",2014,2014,2016,"Net Grand List","Number",1257094900
 "North Branford","0900953890",2014,2014,2016,"Top 10 Total Grand List","Number",178137363
 "North Branford","0900953890",2014,2014,2016,"Total Grand List","Number",1279281720
-"North Canaan","0900554030",2009,2010,2016,"Net Grand List","Number",-6666
-"North Canaan","0900554030",2009,2010,2016,"Top 10 Total Grand List","Number",-6666
-"North Canaan","0900554030",2009,2010,2016,"Total Grand List","Number",-6666
+"North Canaan","0900554030",2009,2010,2016,"Net Grand List","Number",344896380
+"North Canaan","0900554030",2009,2010,2016,"Top 10 Total Grand List","Number",57452120
+"North Canaan","0900554030",2009,2010,2016,"Total Grand List","Number",373967350
 "North Haven","0900954870",2014,2015,2016,"Net Grand List","Number",2810958951
 "North Haven","0900954870",2014,2015,2016,"Top 10 Total Grand List","Number",198349497
 "North Haven","0900954870",2014,2015,2016,"Total Grand List","Number",3215155147
-"North Stonington","0901155500",2009,2010,2016,"Net Grand List","Number",-6666
-"North Stonington","0901155500",2009,2010,2016,"Top 10 Total Grand List","Number",-6666
-"North Stonington","0901155500",2009,2010,2016,"Total Grand List","Number",-6666
+"North Stonington","0901155500",2009,2010,2016,"Net Grand List","Number",620469730
+"North Stonington","0901155500",2009,2010,2016,"Top 10 Total Grand List","Number",67793190
+"North Stonington","0901155500",2009,2010,2016,"Total Grand List","Number",659361189
 "Norwalk","0900156060",2014,2015,2016,"Net Grand List","Number",11902540386
 "Norwalk","0900156060",2014,2015,2016,"Top 10 Total Grand List","Number",1006630346
 "Norwalk","0900156060",2014,2015,2016,"Total Grand List","Number",11972380282
@@ -317,18 +317,18 @@
 "Old Saybrook","0900757320",2014,2015,2016,"Net Grand List","Number",2222504988
 "Old Saybrook","0900757320",2014,2015,2016,"Top 10 Total Grand List","Number",0
 "Old Saybrook","0900757320",2014,2015,2016,"Total Grand List","Number",2236850948
-"Orange","0900957600",2009,2010,2016,"Net Grand List","Number",-6666
-"Orange","0900957600",2009,2010,2016,"Top 10 Total Grand List","Number",-6666
-"Orange","0900957600",2009,2010,2016,"Total Grand List","Number",-6666
+"Orange","0900957600",2009,2010,2016,"Net Grand List","Number",1755214373
+"Orange","0900957600",2009,2010,2016,"Top 10 Total Grand List","Number",158987000
+"Orange","0900957600",2009,2010,2016,"Total Grand List","Number",2190164425
 "Oxford","0900958300",2014,2015,2016,"Net Grand List","Number",1442585447
 "Oxford","0900958300",2014,2015,2016,"Top 10 Total Grand List","Number",82631360
 "Oxford","0900958300",2014,2015,2016,"Total Grand List","Number",1458186407
 "Plainfield","0901559980",2014,2015,2016,"Net Grand List","Number",910620960
 "Plainfield","0901559980",2014,2015,2016,"Top 10 Total Grand List","Number",169300640
 "Plainfield","0901559980",2014,2015,2016,"Total Grand List","Number",973794870
-"Plainville","0900360120",2009,2015,2016,"Net Grand List","Number",-6666
-"Plainville","0900360120",2009,2015,2016,"Top 10 Total Grand List","Number",-6666
-"Plainville","0900360120",2009,2015,2016,"Total Grand List","Number",-6666
+"Plainville","0900360120",2009,2015,2016,"Net Grand List","Number",1390764460
+"Plainville","0900360120",2009,2015,2016,"Top 10 Total Grand List","Number",140869640
+"Plainville","0900360120",2009,2015,2016,"Total Grand List","Number",1428960510
 "Plymouth","0900560750",2013,2014,2016,"Net Grand List","Number",761188614
 "Plymouth","0900560750",2013,2014,2016,"Top 10 Total Grand List","Number",27879760
 "Plymouth","0900560750",2013,2014,2016,"Total Grand List","Number",819301844
@@ -401,9 +401,9 @@
 "Stafford","0901372090",2014,2015,2016,"Net Grand List","Number",769272354
 "Stafford","0901372090",2014,2015,2016,"Top 10 Total Grand List","Number",42943030
 "Stafford","0901372090",2014,2015,2016,"Total Grand List","Number",814900089
-"Stamford","0900173070",2009,2010,2016,"Net Grand List","Number",-6666
-"Stamford","0900173070",2009,2010,2016,"Top 10 Total Grand List","Number",-6666
-"Stamford","0900173070",2009,2010,2016,"Total Grand List","Number",-6666
+"Stamford","0900173070",2009,2010,2016,"Net Grand List","Number",24089986377
+"Stamford","0900173070",2009,2010,2016,"Top 10 Total Grand List","Number",2351741740
+"Stamford","0900173070",2009,2010,2016,"Total Grand List","Number",24133122494
 "Sterling","0901573420",2014,2015,2016,"Net Grand List","Number",224088830
 "Sterling","0901573420",2014,2015,2016,"Top 10 Total Grand List","Number",19504662
 "Sterling","0901573420",2014,2015,2016,"Total Grand List","Number",254194348
@@ -437,9 +437,9 @@
 "Vernon","0901378250",2014,2015,2016,"Net Grand List","Number",1768690830
 "Vernon","0901378250",2014,2015,2016,"Top 10 Total Grand List","Number",190457999
 "Vernon","0901378250",2014,2015,2016,"Total Grand List","Number",1787124288
-"Voluntown","0901178600",2012,2012,2016,"Net Grand List","Number",-6666
-"Voluntown","0901178600",2012,2012,2016,"Top 10 Total Grand List","Number",-6666
-"Voluntown","0901178600",2012,2012,2016,"Total Grand List","Number",-6666
+"Voluntown","0901178600",2012,2012,2016,"Net Grand List","Number",199499086
+"Voluntown","0901178600",2012,2012,2016,"Top 10 Total Grand List","Number",8621850
+"Voluntown","0901178600",2012,2012,2016,"Total Grand List","Number",201315296
 "Wallingford","0900978740",2014,2015,2016,"Net Grand List","Number",4269026488
 "Wallingford","0900978740",2014,2015,2016,"Top 10 Total Grand List","Number",320578570
 "Wallingford","0900978740",2014,2015,2016,"Total Grand List","Number",4491639494
@@ -455,9 +455,9 @@
 "Waterford","0901180280",2013,2014,2016,"Net Grand List","Number",3197421928
 "Waterford","0901180280",2013,2014,2016,"Top 10 Total Grand List","Number",1341513278
 "Waterford","0901180280",2013,2014,2016,"Total Grand List","Number",3197688828
-"Watertown","0900580490",2009,2010,2016,"Net Grand List","Number",-6666
-"Watertown","0900580490",2009,2010,2016,"Top 10 Total Grand List","Number",-6666
-"Watertown","0900580490",2009,2010,2016,"Total Grand List","Number",-6666
+"Watertown","0900580490",2009,2010,2016,"Net Grand List","Number",1912860767
+"Watertown","0900580490",2009,2010,2016,"Top 10 Total Grand List","Number",93901737
+"Watertown","0900580490",2009,2010,2016,"Total Grand List","Number",1963356486
 "Westbrook","0900781680",2014,2015,2016,"Net Grand List","Number",1161296753
 "Westbrook","0900781680",2014,2015,2016,"Top 10 Total Grand List","Number",115549890
 "Westbrook","0900781680",2014,2015,2016,"Total Grand List","Number",1201658546
@@ -467,15 +467,15 @@
 "West Haven","0900982870",2014,2015,2016,"Net Grand List","Number",2853950725
 "West Haven","0900982870",2014,2015,2016,"Top 10 Total Grand List","Number",105170590
 "West Haven","0900982870",2014,2015,2016,"Total Grand List","Number",2901442209
-"Weston","0900183430",2012,2013,2016,"Net Grand List","Number",-6666
-"Weston","0900183430",2012,2013,2016,"Top 10 Total Grand List","Number",-6666
-"Weston","0900183430",2012,2013,2016,"Total Grand List","Number",-6666
+"Weston","0900183430",2012,2013,2016,"Net Grand List","Number",2660640912
+"Weston","0900183430",2012,2013,2016,"Top 10 Total Grand List","Number",61087465
+"Weston","0900183430",2012,2013,2016,"Total Grand List","Number",2662116322
 "Westport","0900183500",2014,2015,2016,"Net Grand List","Number",9804698630
 "Westport","0900183500",2014,2015,2016,"Top 10 Total Grand List","Number",373674340
 "Westport","0900183500",2014,2015,2016,"Total Grand List","Number",14006712328
-"Wethersfield","0900384900",2012,2013,2016,"Net Grand List","Number",-6666
-"Wethersfield","0900384900",2012,2013,2016,"Top 10 Total Grand List","Number",-6666
-"Wethersfield","0900384900",2012,2013,2016,"Total Grand List","Number",-6666
+"Wethersfield","0900384900",2012,2013,2016,"Net Grand List","Number",2338758240
+"Wethersfield","0900384900",2012,2013,2016,"Top 10 Total Grand List","Number",107928280
+"Wethersfield","0900384900",2012,2013,2016,"Total Grand List","Number",2353134620
 "Willington","0901385950",2014,2015,2016,"Net Grand List","Number",439156890
 "Willington","0901385950",2014,2015,2016,"Top 10 Total Grand List","Number",59940069
 "Willington","0901385950",2014,2015,2016,"Total Grand List","Number",441365530

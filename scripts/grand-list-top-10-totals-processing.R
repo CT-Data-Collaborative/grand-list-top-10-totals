@@ -28,8 +28,7 @@ gl_2014 <- gl_2014[!is.na(gl_2014$Town),]
 #only grab columns we need
 gl_2014 <- gl_2014[,c(3,25,26,27,28,29)]
 
-#Check to make sure years make sense (should return FALSE)
-
+#Check to make sure years make sense
 gl_2014$`Date Submitted` <- year(gl_2014$`Date Submitted`)
 gl_2014$`Year-GL-TotalValue` <- as.numeric(gl_2014$`Year-GL-TotalValue`)
 min_gl_year <- min(gl_2014$`Year-GL-TotalValue`, na.rm=T)
@@ -42,7 +41,7 @@ gl_2014$"Year-GL-TotalValue"[which(gl_2014$Town %in% c("Killingworth"))] <- 2014
 gl_2014$"Date Submitted"[which(gl_2014$Town %in% c("North Branford"))] <- 2014
 
 #rename column names
-colnames(gl_2014) <- c("Town", "Top 10 Total Grand List", "Grand List Total Year", "Total Grand List", "Net Grand List", "Year Submitted")
+colnames(gl_2014) <- c("Town", "Top 10 Total Grand List", "Year", "Total Grand List", "Net Grand List", "Year Submitted")
 
 #Convert to long format
 options(scipen=999)
@@ -83,34 +82,38 @@ gl_2014_long_fips$"Town Profile Year" <- 2016
 
 #Order columns
 gl_2014_long_fips <- gl_2014_long_fips %>% 
-  select(`Town`, `FIPS`, `Grand List Total Year`, `Year Submitted`, `Town Profile Year`, `Variable`, `Measure Type`, `Value`) %>% 
+  select(`Town`, `FIPS`, `Year`, `Year Submitted`, `Town Profile Year`, `Variable`, `Measure Type`, `Value`) %>% 
   arrange(Town, Variable)
 
 #Set towns with blank years
 #Three scenarios:
 #1) GL year blank, submitted year present - set GL year = submitted year (Thompson, Lisbon)
-blank1 <- gl_2014_long_fips[is.na(gl_2014_long_fips$`Grand List Total Year`),]
+blank1 <- gl_2014_long_fips[is.na(gl_2014_long_fips$`Year`),]
 blank1 <- unique(blank1[!is.na(blank1$`Year Submitted`),]$Town)
 
 #2) GL year present, submitted year blank - set submitted year to GL year (Voluntown)
 blank2 <- gl_2014_long_fips[is.na(gl_2014_long_fips$`Year Submitted`),]
-blank2 <- unique(blank2[!is.na(blank2$`Grand List Total Year`),]$Town)
+blank2 <- unique(blank2[!is.na(blank2$`Year`),]$Town)
 
 #3) GL year blank, submitted year blank - set both years to cutoff year (Morris, Naugatuck, New Canaan)
 blank3 <- gl_2014_long_fips[is.na(gl_2014_long_fips$`Year Submitted`),]
-blank3 <- unique(blank3[is.na(blank3$`Grand List Total Year`),]$Town)
+blank3 <- unique(blank3[is.na(blank3$`Year`),]$Town)
 
 #Set years accordingly
 latest_year <- max(gl_2014_long_fips$`Town Profile Year`, na.rm=T)
 cutoff_year <- latest_year - 3
-gl_2014_long_fips <- gl_2014_long_fips %>% 
-  mutate(`Grand List Total Year` = ifelse(Town %in% blank1, `Year Submitted`, `Grand List Total Year`), 
-         `Year Submitted` = ifelse(Town %in% blank2, `Grand List Total Year`, `Year Submitted`), 
-         `Grand List Total Year` = ifelse(Town %in% blank3, cutoff_year, `Grand List Total Year`), 
+gl_2014_long_fips <- gl_2014_long_fips %>%
+  mutate(`Year` = ifelse(Town %in% blank1, `Year Submitted`, `Year`),
+         `Year Submitted` = ifelse(Town %in% blank2, `Year`, `Year Submitted`),
+         `Year` = ifelse(Town %in% blank3, cutoff_year, `Year`),
          `Year Submitted` = ifelse(Town %in% blank3, cutoff_year, `Year Submitted`))
 
+#set Naugatuck Year and Year Submitted to 2009
+gl_2014_long_fips$Year[gl_2014_long_fips$`Town` == "Naugatuck"] <- 2009
+gl_2014_long_fips$`Year Submitted`[gl_2014_long_fips$`Town` == "Naugatuck"] <- 2009
+
 #Code "Old" data to -6666 (data before cutoff year)
-gl_2014_long_fips$Value[gl_2014_long_fips$`Grand List Total Year` < cutoff_year] <- -6666
+#gl_2014_long_fips$Value[gl_2014_long_fips$`Grand List Total Year` < cutoff_year] <- -6666
 
 # Write to File
 write.table(
@@ -120,5 +123,3 @@ write.table(
   na = "-6666",
   row.names = F
 )
-
-
