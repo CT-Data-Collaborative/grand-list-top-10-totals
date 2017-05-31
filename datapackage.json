@@ -146,7 +146,15 @@
       "value": 169,
       "type": "string"
     },     
-    "default": {}
+    "default": {    
+      "ckan_name": "Default",
+      "value": {
+        "Measure Type": "Number",
+        "Year": ["2015"],
+        "Variable": ["Grand List Value"]
+      },
+      "type": "object"
+    }
   },
   "spot_checks": [
     {
