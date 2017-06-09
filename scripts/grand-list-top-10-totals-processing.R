@@ -8,7 +8,7 @@ library(lubridate)
 #
 # Processing Script for Grand List Top 10 Totals
 # Created by Jenna Daly
-# On 65/01/2017
+# On 06/01/2017
 #
 ##################################################################
 
@@ -117,7 +117,7 @@ complete_gl_long_fips <- complete_gl_long_fips %>%
          `Year` = ifelse((Town %in% blank3) & (is.na(`Year`)) & (is.na(`Year Submitted`)), (`Town Profile Year` - 3), `Year`), #fills it in only if both years are blank
          `Year Submitted` = ifelse((Town %in% blank3) & (is.na(`Year Submitted`)), (`Town Profile Year` - 3), `Year Submitted`))  #now that year is filled in, only need to check on year submitted is blank
 
-##Special cases where year comes from individual gl not total gl
+##Special cases where year comes from individual gl col not total gl col
 #set Naugatuck Year and Year Submitted to 2009 for 2016 profiles
 complete_gl_long_fips$"Year"[which(complete_gl_long_fips$Town %in% c("Naugatuck") & (complete_gl_long_fips$`Town Profile Year` == 2016))] <- 2009
 complete_gl_long_fips$"Year Submitted"[which(complete_gl_long_fips$Town %in% c("Naugatuck") & (complete_gl_long_fips$`Town Profile Year` == 2016))] <- 2009
