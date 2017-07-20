@@ -34,7 +34,7 @@ gl_data <- grep("gl_", dfs, value=T)
 
 complete_gl <- data.frame(stringsAsFactors = F)
 for (i in 1:length(gl_data)) {
-  current_year <- get(gl_data[2])
+  current_year <- get(gl_data[i])
   current_year <- current_year[!is.na(current_year$Town),]
   current_year <- current_year[,c(3,25,26,27,28,29)]
   current_year$`Date Submitted` <- year(current_year$`Date Submitted`)
