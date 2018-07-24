@@ -1,7 +1,5 @@
 Grand List Top 10 Totals
 
-[![Build Status](https://travis-ci.org/CT-Data-Collaborative/grand-list-top-10-totals.svg?branch=master)](https://travis-ci.org/CT-Data-Collaborative/grand-list-top-10-totals)
-
 Grand List Top 10 Totals reports the total value of the ten highest valued properties by municipality.
 
 Data Source: Municipalities 

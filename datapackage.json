@@ -21,7 +21,7 @@
   }],
   "contributor": [],
   "resources": [{
-    "path": "data/grand_list_top_10_totals_2014_2016.csv",
+    "path": "data/grand_list_top_10_totals_2014_2017.csv",
     "format": "csv",
     "schema": {
       "fields": [{
@@ -70,11 +70,11 @@
       }
     }
   ],
-  "last_modified": "06/01/2017",
+  "last_modified": "07/24/2018",
   "ckan_extras": {
     "full_description": {
       "ckan_name": "Full Description",
-      "value": "This dataset reports the total value of the ten highest valued properties by municipality, as well as each municipality's reported total and net Grand List values. This data is reported directly from each municipality, and municipalities that did not provide data are displayed with empty values. 'Year Submitted' represents when the grand list data was collected for a given year. 'Town Profile Year' represents for which year these data were used in the Town Profiles project.",
+      "value": "This dataset reports the total value of the ten highest valued properties by municipality, based on total taxes paid, as well as each municipality's reported total and net Grand List values. This data is reported directly from each municipality, and municipalities that did not provide data are displayed with empty values. 'Year Submitted' represents when the grand list data was collected for a given year. 'Town Profile Year' represents for which year these data were used in the Town Profiles project.",
       "type": "string"
     },
     "suppression": {
@@ -120,12 +120,12 @@
     },
     "years_in_catalog": {
       "ckan_name": "Years in Catalog",
-      "value": ["2014", "2016"],
+      "value": ["2014", "2016", "2017"],
       "type": "array"
     },
     "latest_year": {
       "ckan_name": "Latest Year Available",
-      "value": "2016",
+      "value": "2017",
       "type": "string"
     },
     "disabled_views": {
@@ -150,8 +150,8 @@
       "ckan_name": "Default",
       "value": {
         "Measure Type": "Number",
-        "Year": ["2016"],
-        "Variable": ["Grand List Value"]
+        "Year": ["2017"],
+        "Variable": ["Top 10 Total Grand List"]
       },
       "type": "object"
     }
@@ -255,7 +255,6 @@
         "value": 264335538
       }
     },  
- 
     {
       "type": "$lookup",
       "filter": {
@@ -269,7 +268,35 @@
         "number type": "int",
         "value": 405730410
       }
-    }   
+    },  
+    {
+      "type": "$lookup",
+      "filter": {
+        "Town": "Willington",
+        "Year": "2016",
+        "Variable": "Top 10 Total Grand List",
+        "Measure Type": "Number"
+      },
+      "expected": {
+        "type": "$match",
+        "number type": "int",
+        "value": 61582790
+      }
+    },  
+    {
+      "type": "$lookup",
+      "filter": {
+        "Town": "Beacon Falls",
+        "Year": "2017",
+        "Variable": "Net Grand List",
+        "Measure Type": "Number"
+      },
+      "expected": {
+        "type": "$match",
+        "number type": "int",
+        "value": 472959356
+      }
+    }      
   ],
   "dimension_groups": [
     {"Variable": ["Net Grand List",
